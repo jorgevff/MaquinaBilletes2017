@@ -64,10 +64,7 @@ public class TicketMachine
      * Update the total collected and
      * reduce the balance to zero.
      */
-    public void prompt()
-    {
-        System.out.println("Please insert the correct amount of money.");
-    }
+    
 
     public void printTicket()
     {
@@ -121,6 +118,14 @@ public class TicketMachine
     
     public void showPrice()
     {
-       System.out.println("The price of a ticket is " + price + " cents."); 
+       System.out.println("El precio del billete es de " + price + " cents."); 
+    }
+    
+    /**
+     * saca por pantalla un mensaje
+     */
+    public void prompt()
+    {
+        System.out.println("Inserte dinero, plisss.");
     }
 }
