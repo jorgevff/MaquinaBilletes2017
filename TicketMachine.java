@@ -109,6 +109,16 @@ public class TicketMachine
        price += 200; 
     }
     
+    /**
+     * reducir el precio del  billete en la cantidad que se introduce por parametro
+     */
+    
+    public void discount(int amount)
+    {
+        //price -= amount;
+        price = price - amount;
+    }
+    
     public void showPrice()
     {
        System.out.println("The price of a ticket is " + price + " cents."); 
