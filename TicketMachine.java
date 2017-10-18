@@ -86,11 +86,27 @@ public class TicketMachine
     }
 
     /**
-     * devuelve el total
+     * devuelve el valor del campo total
      */
     public int getTotal()
     {
         return total;
+    }
+    
+    /**
+     * permite cambiar el valor de price; el precio
+     */
+    public void setPrice(int nuevoPrecio)
+    {
+        price = nuevoPrecio;
+    }
+    /**
+     * permite incrementar el precio del billete en 2 euros
+     */
+    public void incrementaPrecioDosEuros()
+    {
+        //price = price + 200
+       price += 200; 
     }
     
     public void showPrice()
