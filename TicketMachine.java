@@ -25,9 +25,9 @@ public class TicketMachine
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public TicketMachine(int cost)
+    public TicketMachine()
     {
-        price = cost;
+        price = 1000;
         balance = 0;
         total = 0;
         status = 0;
@@ -78,6 +78,7 @@ public class TicketMachine
 
         // Update the total collected with the balance.
         total = total + balance;
+        
         // Clear the balance.
         balance = 0;
     }
@@ -87,6 +88,7 @@ public class TicketMachine
      */
     public int getTotal()
     {
+        
         return total;
     }
     
