@@ -32,6 +32,14 @@ public class TicketMachine
         total = 0;
         status = 0;
     }
+    
+    public TicketMachine(int precio)
+    {
+        price = precio;
+        balance = 0;
+        total = 0;
+        status = 0;
+    }
 
     /**
      * Return the price of a ticket.
