@@ -138,4 +138,12 @@ public class TicketMachine
     {
         System.out.println("Inserte dinero, plisss.");
     }
+    /**
+     * vacia la maquina y deja el balance a 0
+     */
+    public void vaciarTotal()
+    {
+        total = 0;
+        
+    }
 }
